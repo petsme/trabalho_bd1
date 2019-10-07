@@ -1,4 +1,4 @@
-# TRABALHO 01:  Título do Trabalho
+# TRABALHO 01:  Pets&Me
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
@@ -12,18 +12,18 @@ segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
 
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
+> Segundo a Organização Mundial da Saúde, só no Brasil, estima-se que existam mais de 30 milhões de animais abandonados. Em cidades grandes, a cada cinco habitantes, há um cachorro. Destes, 10% estão abandonados.
+Além desse número exorbitante para animais domesticados, as estatísticas para animais que não são comumente conhecidos como “pets” é também assustadora, pois muitos animais são resgatados de situações periculosas e não conseguem receber o amor que recebem depois do resgate. 
+Buscando então facilitar esse acesso, promovendo contato mais prático e útil entre o protetor animal e o adotante, respeitando burocracias necessárias e principalmente o direito à vida saudável e digna no animal, nós trazemos a proposta do Pets&Me.
+
  
 
 ### 3.MINI-MUNDO<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+O aplicativo Pets&me a ser desenvolvido, tem como objetivo a flexibilidade na adoção de animais carentes, diminuindo a distância entre o protetor (Protector) e o adotante (Adopter). No App, não será permitido a comercialização de animais, bem como a divulgação de dados sobre a raça do mesmo. O usuário interessado em adotar um animal (Adopter), bem como o interessado na divulgação de animais a serem adotados (Protector), deverão se cadastrar no App inserindo seus dados pessoais e também algumas informações adicionais. O sistema deverá armazenar dados como: nome, CPF, RG. O sistema também deve permitir a interação entre usuários bem como um meio de classificação e notas dos protectors e adopter. Usuários protectors poderão realizar o cadastro de animais a serem adotados. O sistema deve armazenar dados cadastrais obrigatórios dos animais, tais como: nome, sexo e também algumas fotos. Também deve ser capaz de armazenar alguns dados opcionais, como: descrição, data de nascimento (idade), registros de vacinação e procedimentos cirúrgicos (esse tópico é opcional, visto que se tratando de animais abandonados ou de rua, nem sempre se tem acesso a esse tipo de histórico). O sistema deve ser capaz de fazer o agendamento de visitas para que o protector encontre o adopter e conheça animal escolhido antes da efetivação do processo de adoção. O sistema só deve permitir o acesso a aba de adoção aos usuários adopter que cumpram os requisitos mínimos pré-estabelecidos para a adoção de um pet¹. Ao efetivar uma adoção, o sistema deve gerar um termo de compromisso contendo todas as informações do animal e das partes envolvidas na adoção (Adopter e Protector) para ser impresso e posteriormente assinado.
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes. 
+¹ O adotante precisa ser maior de 21 anos, apresentar RG, CPF, comprovante de residência recente assinar um termo se comprometendo a cuidar do animalzinho, que agora passa a ser de responsabilidade dele.
+
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
