@@ -9,8 +9,6 @@ primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
 segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
-<br>e motivação da escolha realizada. <br>
 
 > Segundo a Organização Mundial da Saúde, só no Brasil, estima-se que existam mais de 30 milhões de animais abandonados. Em cidades grandes, a cada cinco habitantes, há um cachorro. Destes, 10% estão abandonados.
 Além desse número exorbitante para animais domesticados, as estatísticas para animais que não são comumente conhecidos como “pets” é também assustadora, pois muitos animais são resgatados de situações periculosas e não conseguem receber o amor que recebem depois do resgate. 
