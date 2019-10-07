@@ -48,7 +48,7 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
         
-![Alt text](https://github.com/petsme/trabalho_bd1/blob/046d586cef72bb31a0cd465d12134b0ed01a8500 "image.png")
+![Alt text](https://github.com/petsme/trabalho_bd1/blob/046d586cef72bb31a0cd465d12134b0ed01a8500/image.png)
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
