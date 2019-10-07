@@ -26,7 +26,7 @@ O aplicativo Pets&me a ser desenvolvido, tem como objetivo a flexibilidade na ad
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-BD_01_Table.xlsx
+https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
