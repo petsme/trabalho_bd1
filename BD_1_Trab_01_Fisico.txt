@@ -1,0 +1,126 @@
+/* Lógico_1: */
+
+CREATE TABLE Usuario (
+    Nome_Sobrenome VARCHAR(80),
+    Sexo CHAR,
+    Data_Nascimento DATE,
+    RG INT,
+    CPF INT,
+    ID INT PRIMARY KEY,
+    Senha VARCHAR(20),
+    Nome_Usuario VARCHAR(80)
+);
+
+CREATE TABLE Animal (
+    ID_Animal INT PRIMARY KEY,
+    Nome VARCHAR(80),
+    Sexo CHAR
+);
+
+CREATE TABLE Documentacao (
+    Descricao VARCHAR(80),
+    Data_Nascimento DATE,
+    Vacinacao VARCHAR(80),
+    ID_animal INT
+);
+
+CREATE TABLE Protector (
+    ID_Protector INT PRIMARY KEY
+);
+
+CREATE TABLE Adopter (
+    ID_Adopter INT PRIMARY KEY
+);
+
+CREATE TABLE Classifica (
+    ID_Usuario_1 INT,
+    ID_Usuario_2 INT,
+    Nota INT
+);
+
+CREATE TABLE Cadastra (
+    ID_animal INT,
+    Protector_ID INT,
+    Data_Cadastro DATE,
+    Codigo_Cadastro INT PRIMARY KEY
+);
+
+CREATE TABLE Adota (
+    ID_Animal INT,
+    ID_Usuario INT,
+    Data_Adocao DATE,
+    Codigo_Adocao INT PRIMARY KEY
+);
+
+CREATE TABLE Agenda_Visita (
+    ID_Protector INT,
+    ID_Adopter INT,
+    Data_Agendamento DATE,
+    Codigo_Agendamento INT PRIMARY KEY
+);
+
+CREATE TABLE Dados_Contato (
+    Num_Telefone INT,
+    Endereco VARCHAR(80),
+    Email VARCHAR(100),
+    ID_Usuario INT
+);
+ 
+ALTER TABLE Documentacao ADD CONSTRAINT FK_Documentacao_1
+    FOREIGN KEY (ID_animal)
+    REFERENCES Animal (ID_Animal)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE Protector ADD CONSTRAINT FK_Protector_2
+    FOREIGN KEY (ID_Protector)
+    REFERENCES Usuario (ID)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE Adopter ADD CONSTRAINT FK_Adopter_2
+    FOREIGN KEY (ID_Adopter)
+    REFERENCES Usuario (ID)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE Classifica ADD CONSTRAINT FK_Classifica_1
+    FOREIGN KEY (ID_Usuario_1)
+    REFERENCES Usuario (ID)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE Classifica ADD CONSTRAINT FK_Classifica_2
+    FOREIGN KEY (ID_Usuario_2)
+    REFERENCES Usuario (ID)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE Cadastra ADD CONSTRAINT FK_Cadastra_2
+    FOREIGN KEY (ID_animal)
+    REFERENCES Animal (ID_Animal)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Cadastra ADD CONSTRAINT FK_Cadastra_3
+    FOREIGN KEY (Protector_ID)
+    REFERENCES Protector (ID_Protector)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Adota ADD CONSTRAINT FK_Adota_2
+    FOREIGN KEY (ID_Animal)
+    REFERENCES Animal (ID_Animal)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Adota ADD CONSTRAINT FK_Adota_3
+    FOREIGN KEY (ID_Usuario)
+    REFERENCES Usuario (ID)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Agenda_Visita ADD CONSTRAINT FK_Agenda_Visita_2
+    FOREIGN KEY (ID_Protector)
+    REFERENCES Protector (ID_Protector)
+    ON DELETE SET NULL;
+ 
+ALTER TABLE Agenda_Visita ADD CONSTRAINT FK_Agenda_Visita_3
+    FOREIGN KEY (ID_Adopter)
+    REFERENCES Adopter (ID_Adopter)
+    ON DELETE SET NULL;
+ 
+ALTER TABLE Dados_Contato ADD CONSTRAINT FK_Dados_Contato_1
+    FOREIGN KEY (ID_Usuario)
+    REFERENCES Usuario (ID);
