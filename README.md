@@ -43,30 +43,27 @@ https://github.com/petsme/trabalho_bd1/blob/master/Trab_01_BD_PrototipoTela.pdf
 https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
 
 ### 5.MODELO CONCEITUAL<br>
-    A) NOTACAO ENTIDADE RELACIONAMENTO 
-        * Para nosso prótótipo limitaremos o modelo conceitual nas 6 principais entidades do escopo
-        * O protótipo deve possui no mínimo duas relações N para N
-        * o mínimo de entidades do modelo conceitual será igual a 5
         
 ![Alt text](https://github.com/petsme/trabalho_bd1/blob/046d586cef72bb31a0cd465d12134b0ed01a8500/image.png)
     
-    B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-    C) QUALIDADE 
-        Garantir que a semântica dos atributos seja clara no esquema
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas
-    
-        
     
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
-    [objeto]: [descrição do objeto]
+
+    Usuario: Tabela que armazena as informações relativas aos usuários do sistema.
+    Protector: Tabela que armazena as informações relativas
+    Adopter: Tabela que armazena as informações relativas
+    Animal: Tabela que armazena as informações relativas
+    Documentacao: Tabela que armazena as informações relativas
+    Dados_Contato: Tabela que armazena as informações relativas
+    Agenda_Visita: Tabela que armazena as informações relativas
+    Cadastra: Tabela que armazena as informações relativas
+    Adota: Tabela que armazena as informações relativas
+    Classifica: Tabela que armazena as informações relativas
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
 
 #### 5.3 Principais fluxos de informação e principais tabelas do sistema     
