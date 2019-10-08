@@ -5,9 +5,9 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Mateus Damaceno Schineider:schineider.mateus@gmail.com
-Matheus Comerio:matheuscomerior@gmail.com
-Edimar Cruz:eac2001@hotmail.com 
+Mateus Damaceno Schineider:schineider.mateus@gmail.com<br>
+Matheus Comerio:matheuscomerior@gmail.com<br>
+Edimar Cruz:eac2001@hotmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
