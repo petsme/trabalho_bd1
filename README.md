@@ -65,16 +65,23 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
     Adota: Tabela que armazena as informações relativas a adoção de animais.
     Classifica: Tabela que armazena as informações relativas as classificações em notas dos usuários.
     
-    Nome_Sobrenome:
-    Sexo: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-    Data_Nascimento:
-    RG:
-    ID:
-    Senha:
-    Nome_Usuario:
-    ID_Animal:
-    Nome_Animal:
-    Sexo_Animal:
+    Nome_Sobrenome: campo responsavel por armazenar nome e sobrenome de usuários.
+    Sexo: campo destinado ao armazenamento do sexo dos usuários.
+    Data_Nascimento: campo que armazena a data de nascimento dos usuários.
+    RG: campo para o armazenamento do RG dos usuários.
+    ID: campo para o armazenamento do identificador unico de cada usuário.
+    CPF: campo que armazena o cadastro de pessoa física dos usuários.
+    Senha: campo para o armazenamento das senhas dos usuários.
+    Nome_Usuario: responsável por armazenar o nome(de login) de usuários.
+    Num_Telefone: campo responsável pelo armazenamento do número de telefone dos usuários.
+    Endereco: campo responsável pelo armazenamento do endereço dos usuários.
+    Email: campo responsável pelo armazenamento do e-mail dos usuários.
+    ID_Animal: campo que armazena o identificados único dos animais.
+    Nome_Animal: campo que armazena o nome dos animais.
+    Sexo_Animal: campo que armazena o sexo dos animais.
+    Descricao: campo que armazena a descrição dos animais.
+    Data_Nascimento_Animal: campo que armazena a data de nascimento dos animais.
+    Vacinacao: campo que armazena o estado de vacinação dos animais.
 
 #### 5.3 Principais fluxos de informação e principais tabelas do sistema     
     a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
