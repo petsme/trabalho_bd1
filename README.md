@@ -81,15 +81,12 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
     c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+
+https://github.com/petsme/trabalho_bd1/blob/master/Lógico_Trab_01.brM3
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..) 
-        
->## Marco de Entrega 01 em:<br>
+     
+https://github.com/petsme/trabalho_bd1/blob/master/BD_1_Trab_01_Fisico.txt
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
