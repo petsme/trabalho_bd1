@@ -44,7 +44,7 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
 
 ### 5.MODELO CONCEITUAL<br>
         
-![Alt text](https://github.com/petsme/trabalho_bd1/blob/046d586cef72bb31a0cd465d12134b0ed01a8500/image.png)
+![Alt text](https://github.com/petsme/trabalho_bd1/blob/master/image.png)
     
     
 #### 5.1 Validação do Modelo Conceitual
@@ -54,17 +54,26 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
 #### 5.2 Descrição dos dados 
 
     Usuario: Tabela que armazena as informações relativas aos usuários do sistema.
-    Protector: Tabela que armazena as informações relativas
-    Adopter: Tabela que armazena as informações relativas
-    Animal: Tabela que armazena as informações relativas
-    Documentacao: Tabela que armazena as informações relativas
-    Dados_Contato: Tabela que armazena as informações relativas
-    Agenda_Visita: Tabela que armazena as informações relativas
-    Cadastra: Tabela que armazena as informações relativas
-    Adota: Tabela que armazena as informações relativas
-    Classifica: Tabela que armazena as informações relativas
+    Protector: Tabela que armazena as informações relativas aos usuários Protectors do sistema.
+    Adopter: Tabela que armazena as informações relativas aos usuários Adopters do sistema.
+    Animal: Tabela que armazena as informações aos animais cadastrados no sistema.
+    Documentacao: Tabela que armazena as informações relacionadas a documentação dos animais cadastrados.
+    Dados_Contato: Tabela que armazena as informações de contato dos usuários do sistema.
+    Agenda_Visita: Tabela que armazena as informações relativas ao agendamento de visitas.
+    Cadastra: Tabela que armazena as informações relativas ao cadastro de novos animais.
+    Adota: Tabela que armazena as informações relativas a adoção de animais.
+    Classifica: Tabela que armazena as informações relativas as classificações em notas dos usuários.
     
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    Nome_Sobrenome:
+    Sexo: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    Data_Nascimento:
+    RG:
+    ID:
+    Senha:
+    Nome_Usuario:
+    ID_Animal:
+    Nome_Animal:
+    Sexo_Animal:
 
 #### 5.3 Principais fluxos de informação e principais tabelas do sistema     
     a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
