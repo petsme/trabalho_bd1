@@ -31,12 +31,12 @@ https://github.com/petsme/trabalho_bd1/blob/master/Trab_01_BD_PrototipoTela.pdf
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento,  nome do departamento, e nome do gerente.
-* Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-* Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-* Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
+> O app Pets&Me precisa inicialmente dos seguintes relatórios:
+* Relatório que informe quais foram os números de animais adotados em um determinado período de tempo.
+* Relatório de qual o sexo dos animais quer os Adopters preferem na hora da adoção.
+* Relatório que informa quantas visitas efetivamente terminaram em um animal adotado.
+* Relatório que informe qual o perfil de animal mais procurado e o mais cadastrado.
+* Relatório de perfil de usuário mais bem sucedido na hora de conseguir uma adoção de um animal.
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
