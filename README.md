@@ -49,8 +49,8 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
     
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    BoraJogar: Kaio Fábio, Renato Lopes Maikysuel
+    EsTour: Willian, Carolina e Alexandre
 
 #### 5.2 Descrição dos dados 
 
