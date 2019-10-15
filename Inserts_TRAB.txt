@@ -1,0 +1,126 @@
+INSERT INTO Usuario (Nome_Sobrenome, Sexo, Data_Nascimento, RG, CPF, ID, Senha, Nome_Usuario) VALUES
+('Amanda Martins', 'F', '1997/06/21', 32569, 123456778, 12345, 'BatataFrita', 'a.martins'),
+('Claudio Moreira', 'M', '1972/04/25', 65896, 123478998, 12346, 'Macarao', 'c.moreira'),
+('Renato Goncalvez', 'M', '1966/01/01', 36523, 123468596, 12347, 'Molho', 'r.gon'),
+('Mariana Rodrigues', 'F', '1988/07/13', 25412, 123498765, 12348, 'Topster', 'mar_ia'),
+('Marcelo Augusto', 'M', '1992/02/14', 58745, 235655687, 12349, 'ToNemAi', 'marcel_aug'),
+('Paloma Silva', 'F', '1976/07/25', 25632, 321654265, 12340, 'Teste', 'p.silva'),
+('Santiago Santos', 'M', '2000/03/07', 65412, 965274145, 12341, 'Chocolate123', 'sa.sou'),
+('Sandro Souza', 'M', '1974/02/28', 23654, 369814745, 12342, 'Marvilha321', 'sandrosouzinha22'),
+('Abigail de Oliveira', 'F', '1960/03/19', 58974, 258914765, 12343, 'NemSeiASenha', 'ab.gail'),
+('Maria da Penha', 'F', '2000/08/30', 56789, 852364165, 12344, 'Eureca', 'maria.penha'),
+('Roger Machado', 'M',	'1985/04/12',	64585,	965274147, 16458, 'Novinha22', 'roger.machado'),
+('Marta Pereira', 'F',	'1965/05/13',	22236,	698763201, 16325, '123feijaoarroz', 'm.pereira'),
+('Lorenzo Rocha', 'M',	'1997/05/10',	33654,	169863254, 16587, 'seila', 'l.rocha'),
+('Romildo Lorencon', 'M', '1998/11/11',	46458,	123675498, 16326, 'senhanova', 'romildo.lorençon'),
+('Graca Conceicao', 'F', '1999/12/12',	11258,	968569745, 16596, 'tentadenovo', 'graça.conceição'),
+('Cecilia Maria', 'F',	'1996/06/13',	46568,	635987456, 16345, 'senhaestranha', 'c.maria'),
+('Vanderson Carniel', 'M', '1986/03/14', 45467,	316478645, 16256, 'tosemideias', 'vandinho22'),
+('Lorena Poeis', 'F',	'1987/01/15',	11136,	254963171, 16369, 'seinaobicho', 'lorena.poeis'),
+('Gabriela Oliveira', 'F', '1985/08/16', 25648,	111565458, 16525, 'sinceramente', 'oliver.gabis'),
+('Marcos Rocha', 'M', '1978/04/17', 96345, 331158745, 16582, 'senhazonha', 'mpedradura');
+
+INSERT INTO Protector (ID_Protector) VALUES
+(12345),
+(12346),
+(12347),
+(12348),
+(12349),
+(16458),
+(16325),
+(16587),
+(16326),
+(16596);
+
+INSERT INTO Adopter (ID_Adopter) VALUES
+(12340),
+(12341),
+(12342),
+(12343),
+(12344),
+(16345),
+(16256),
+(16369),
+(16525),
+(16582);
+
+INSERT INTO Animal (ID_Animal, Nome_Animal, Sexo_Animal, ID_Protector, Data_Cadastro) VALUES 
+(11234, 'Billy', 'M', 12345, '2019/04/01'),
+(21234, 'Rex', 'M', 12346, '2018/02/10'),
+(31234, 'Spike', 'M', 12347, '2017/04/05'),
+(41234, 'Lilith', 'F', 12348, '2019/07/01'),
+(51234, 'Lola', 'F', 12349, '2018/12/12'),
+(61234,	'Amora', 'F', 16458, '2019/04/02'),
+(71234,	'Pretinho', 'M', 16325,	'2018/02/15'),
+(81234,	'Bob', 'M', 16587, '2017/04/09'),
+(91234,	'Samantah', 'F', 16326,	'2019/07/04'),
+(21232,	'Brutus', 'M', 16596, '2018/12/19'),
+(112345, 'Rebeca', 'F',	12345,'2017/12/19'),
+(212345, 'Luke', 'M',	12346,'2018/10/15'),
+(312345, 'Nick', 'M',	12347,'2018/01/19'),
+(412345, 'Apolo', 'M',	12348,'2018/03/19'),
+(512345, 'Atena', 'F',	12349,'2018/05/20'),
+(612345, 'Afrodite', 'F', 16458,'2019/12/19'),
+(712344, 'Perigosa', 'F', 16325,'2019/12/11'),
+(812344, 'Zeus', 'M',	16587,'2017/07/13'),
+(912346, 'Boris', 'M',	16326,'2018/06/20'),
+(212327, 'Bartolomeu', 'M', 16596,'2019/02/17');
+
+INSERT INTO Agenda_Visita (ID_Protector, ID_Adopter, ID_Animal, Data_Agendamento) VALUES
+(12345,	12340,	11234,	'2019/04/28'),
+(12346,	12341,	21234,	'2018/02/28'),
+(12347,	12342,	31234,	'2017/05/21'),
+(12348,	12343,	41234,	'2019/07/30'),
+(12349,	12344,	51234,	'2018/12/28'),
+(16458,	16345,	61234,	'2019/12/21'),
+(16325,	16256,	71234,	'2018/05/28'),
+(16587,	16369,	81234,	'2018/03/28'),
+(16326,	16525,	91234,	'2019/08/28'),
+(16596,	16582,	21232,	'2018/12/22');
+
+INSERT INTO Adota(ID_Protector,	ID_Adopter, ID_Animal, Data_Adocao) VALUES
+(12345,	12340,	11234,	'2019/05/28'),
+(12346,	12341,	21234,	'2018/03/30'),
+(12347,	12342,	31234,	'2017/06/21'),
+(12348,	12343,	41234,	'2019/08/30'),
+(12349,	12344,	51234,	'2019/01/01');
+
+INSERT INTO Dados_Contato (Num_Telefone,	Email,	Endereco, ID_Usuario) VALUES
+(956458756,	'a.martins@yahoo.com',	'Rua Norte Augusto Nº45',	12345),
+(986321456,	'c.moreira@hotmail.com',	'Av. Marataises Nº678',	12346),
+(998787569,	'r.gon@gmail.com',	'Rua Norte Augusto Nº986',	12347),
+(999636321,	'rodrigues.mariana@gmail.com',	'Rua Mimoso Nascimento Nº85',	12348),
+(996586473,	'm.marcelo@hotmail.com',	'Av. Doutor Jose Vieira Tatagiba Nº47',	12349),
+(965874689,	'palominha321@gmail.com',	'Rua Montes Claros Nº 1568',	12340),
+(969636325,	'sant_ago@outlook.com',	'Av. Fiorentina Nº 8798',	12341),
+(987456987,	'ss@ig.com.br',	'Av. Flores Belas Nº 14',	12342),
+(931658963,	'ab.gail@hotmail.com',	'Rua Angra Nº 3654',	12343),
+(965985456,	'penha.maria@gmail.com',	'Rua Arueira Nº 6354',	12344),
+(864523657,	'roger.machado@gmail.com',	'Rua Norte Augusto Nº458',	16458),
+(986412035,	'm.pereira@gmail.com',	'Av. Marataises Nº6786',	16325),
+(999656988,	'l.rocha@gmail.com',	'Rua Norte Augusto Nº98652',	16587),
+(888545631,	'romildo.lorençon@gmail.com',	'Rua Mimoso Nascimento Nº8525',	16326),
+(965325624,	'graça.conceição@gmail.com',	'Av. Doutor Jose Vieira Tatagiba Nº474',	16596),
+(963156560,	'c.maria@gmail.com',	'Rua Montes Claros Nº 15684',	16345),
+(999996665,	'vandinho22@gmail.com',	'Av. Fiorentina Nº 87981',	16256),
+(885755454,	'lorena.poeis@gmail.com',	'Av. Flores Belas Nº 1426',	16369),
+(888558856,	'oliver.gabis@gmail.com',	'Rua Angra Nº 365458',	16587),
+(978784545,	'mpedradura@gmail.com',	'Rua Arueira Nº 63544',	16582);
+
+INSERT INTO Classifica (ID_Usuario_1, ID_Usuario_2, Nota) VALUES
+(12345,		12340,	5),
+(12346,		12341,	2),
+(12347,		12342,	5),
+(12348,		12343,	3),
+(12349,		12344,	5),
+(16458,		16345,	4),
+(16325,		16256,	3),
+(16587,		16369,	2),
+(16326,		16525,	1),
+(16596,		16582,	5);
+
+INSERT INTO Documentacao (ID_animal, Descricao, Data_Nascimento, Vacinacao) VALUES
+(11234,	'Brincalhao',	'2015/07/21',	'Vermifugado'),
+(21234,	'Amigo e brincalhao',	'2017/08/05',	'Vermifugado'),
+(51234,	'Forte, amigável e companheiro', '2017/08/23',	'Vermifugado'),
+(61234,	'Se da bem com criancas', '2017/08/16',	'Vermifugado');
