@@ -45,7 +45,7 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
 
 ### 5.MODELO CONCEITUAL<br>
         
-![Alt text](https://github.com/petsme/trabalho_bd1/blob/master/Conceitual_IMG.png)
+![Alt text](https://github.com/petsme/trabalho_bd1/blob/master/Conceitual_Trab_IMG.png)
     
     
 #### 5.1 Validação do Modelo Conceitual
@@ -91,7 +91,7 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
 
 ### 6	MODELO LÓGICO<br>
 
-https://github.com/petsme/trabalho_bd1/blob/master/Lógico_Trab_01.brM3
+https://github.com/petsme/trabalho_bd1/blob/master/L%C3%B3gico_Trab_01.brM3
 
 ### 7	MODELO FÍSICO<br>
      
