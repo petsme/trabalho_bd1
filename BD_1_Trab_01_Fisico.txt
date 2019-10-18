@@ -58,7 +58,7 @@ CREATE TABLE Agenda_Visita (
 
 CREATE TABLE Dados_Contato (
     ID_Usuario INT,
-    Num_Telefone INT,
+    Num_Telefone VARCHAR(20),
     Endereco VARCHAR(80),
     Email VARCHAR(100)
 );
