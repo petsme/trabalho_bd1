@@ -1,0 +1,4 @@
+SELECT * FROM Usuario WHERE ID > 5;
+SELECT * FROM Animal WHERE Sexo_Animal = 'M';
+SELECT * FROM Classifica WHERE Nota = 5;
+SELECT * FROM Usuario WHERE Sexo = 'F';
