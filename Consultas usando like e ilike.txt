@@ -1,8 +1,0 @@
-SELECT * FROM Usuario WHERE Nome_Sobrenome LIKE 'A%';
-SELECT * FROM Usuario WHERE Nome_Sobrenome ILIKE '%o%';
-SELECT ID_Protector FROM Protector Where ID_Protector LIKE '_6';
-SELECT * FROM Animal WHERE Nome_Animal ILIKE 'a%';
-SELECT Email FROM Dados_Contato WHERE Email ILIKE 'a%';
-SELECT Data_Nascimento, current_date as data_atual (age(current_date,data_nascimento)) FROM Usuario;
-SELECT Nome_Sobrenome, Data_Nascimento, current_date as data_atual date_part('year',(age(current_date,data_nascimento))) AS idade FROM Usuário;
-SELECT Data_Nascimento, current_date as data_atual extract('year' from Data_Nascimento) FROM Usuario
