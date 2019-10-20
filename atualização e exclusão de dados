@@ -1,0 +1,35 @@
+Atualização e exclusão de dados
+
+1) Atualiza data de nascimento de usuario com id 16596 para 10/10/2001
+
+update usuario 
+set data_nascimento = '2001-10-10'
+where id = 16596
+
+2)deletar os dados da linha onde a nota é igual a 1
+
+delete from classifica 
+where nota = 1
+
+3)Atualiza o nome do animal Lola para xerife
+
+update animal
+set nome_animal = 'xerife'
+where nome_animal = 'Lola'
+
+4)deletar os dados contato com o telefone numero  956458756
+
+delete  from dados_contato
+where num_telefone = 956458756
+
+5)mudar a agenda de visita do dia 28/04/2019 para 21/04/2020
+
+update  agenda_visita
+set data_agendamento = '21/04/2020'
+where data_agendamento = '28/04/2019'
+
+6)deletar agenda de visita para o animal de id numero 41234
+
+delete from agenda_visita
+where id_animal = 41234
+
