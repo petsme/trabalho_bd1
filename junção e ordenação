@@ -1,0 +1,66 @@
+1)  RG, CPF, nome e telefone dos usuarios do sexo masculino que agendaram visita
+ e adotaram animais ordenado por nome de usuario
+
+select usuario.rg,usuario.cpf,usuario.nome_sobrenome as nome,dados_contato.num_telefone as telefone
+from usuario inner join classifica on
+(classifica.id_usuario_1  = usuario.id)or
+(classifica.id_usuario_2  = usuario.id)
+inner join protector on
+(classifica.id_usuario_1  = protector.id_protector )or
+(classifica.id_usuario_2  = protector.id_protector)
+inner join adopter on
+(adopter.id_adopter  = usuario.id )
+inner join adota on
+(adota.id_adopter=adota.id_adopter)
+inner join agenda_visita on
+(agenda_visita.id_animal = adota.id_animal)
+inner join documentacao on
+(documentacao.id_animal=agenda_visita.id_animal)
+inner join animal on
+(animal.id_animal=documentacao.id_animal)
+inner join dados_contato on
+(dados_contato.id_usuario=usuario.id)
+where usuario.sexo = 'M'
+group by usuario.rg,usuario.cpf,usuario.nome_sobrenome,dados_contato.num_telefone
+order by usuario.nome_sobrenome 
+
+2)Nome de quem adotou, data de adoção e nome do animal 
+adotado ordenado por data de adoção
+
+select usuario.nome_sobrenome as nome, adota.data_adocao as "data da adoção",animal.nome_animal as "nome do animal adotado"
+from adota left outer join usuario on
+(adota.id_adopter=usuario.id)
+left outer join animal on
+(animal.id_protector=adota.id_protector)
+order by adota.data_adocao
+
+3)Nome do animal, qualidade,data de nascimento e vacinação(dos que foram informados)
+
+select animal.nome_animal as nome,documentacao.descricao as qualidade,documentacao.data_nascimento as "data de nascimento",documentacao.vacinacao 
+from animal right  outer join documentacao on
+(animal.id_animal=documentacao.id_animal)
+order by documentacao.data_nascimento
+
+4)Data do Agendamento, Nome do Adotante,Telefone e Email
+
+select agenda_visita.data_agendamento as "data agendada",usuario.nome_sobrenome as adotante,dados_contato.num_telefone as telefone,dados_contato.email
+from agenda_visita left outer join dados_contato on
+(agenda_visita.id_adopter=dados_contato.id_usuario)
+left outer join usuario on
+(usuario.id=dados_contato.id_usuario)
+order by agenda_visita.data_agendamento
+
+5)Agenda com Nome, Telefone e E-mail dos Usuarios
+
+select usuario.nome_sobrenome as nome,dados_contato.num_telefone as telefone,dados_contato.email 
+from usuario left outer join dados_contato on
+(usuario.id=dados_contato.id_usuario)
+order by usuario.nome_sobrenome
+
+6) Nome do protector id do avaliado e nota 
+
+select usuario.nome_sobrenome as classificador,classifica.id_usuario_2 as classificado,classifica.nota as "nota recebida"
+from classifica left outer join usuario on
+(usuario.id = classifica.id_usuario_1)
+where classifica.nota < 5
+order by classifica.nota
