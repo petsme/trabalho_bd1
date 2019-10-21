@@ -104,21 +104,45 @@ https://github.com/petsme/trabalho_bd1/blob/master/Inserts_TRAB.txt
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+
+https://colab.research.google.com/drive/1ilz55rhj5VmxT50d-PR_GAuYaNiSl7Na
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+
+https://colab.research.google.com/drive/1ilz55rhj5VmxT50d-PR_GAuYaNiSl7Na
+
+https://github.com/petsme/trabalho_bd1/blob/master/Operadores%20l%C3%B3gicos%2C%20where%2C%20like%2C%20ilike%2C%20data%20(9.2%2C%209.3%20e%209.4).txt
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
-    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
-    b) Criar no mínimo 3 consultas com operadores aritméticos 
-    c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+
+https://colab.research.google.com/drive/1ilz55rhj5VmxT50d-PR_GAuYaNiSl7Na
+
+https://github.com/petsme/trabalho_bd1/blob/master/Operadores%20l%C3%B3gicos%2C%20where%2C%20like%2C%20ilike%2C%20data%20(9.2%2C%209.3%20e%209.4).txt
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
-    a) Criar outras 5 consultas que envolvam like ou ilike
-    b) Criar uma consulta para cada tipo de função data apresentada.
+
+https://colab.research.google.com/drive/1ilz55rhj5VmxT50d-PR_GAuYaNiSl7Na
+
+https://github.com/petsme/trabalho_bd1/blob/master/Operadores%20l%C3%B3gicos%2C%20where%2C%20like%2C%20ilike%2C%20data%20(9.2%2C%209.3%20e%209.4).txt
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
+https://github.com/petsme/trabalho_bd1/blob/master/atualiza%C3%A7%C3%A3o%20e%20exclus%C3%A3o%20de%20dados
+
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
-        a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
-        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+        Junção que envolve todas as tabelas
+        
+        ![Alt text](https://github.com/petsme/trabalho_bd1/blob/master/images/Jun%C3%A7%C3%A3o%20e%20Ordena%C3%A7%C3%A3o%201.png)
+        
+        Junção que o grupo considerou como sendo de suma importância para o trabalho
+        
+        ![Alt text](https://github.com/petsme/trabalho_bd1/blob/master/images/Jun%C3%A7%C3%A3o%20e%20Ordena%C3%A7%C3%A3o%202.png)
+        
+        Demais junções
+        
+        https://github.com/petsme/trabalho_bd1/tree/master/images
+        
+        https://github.com/petsme/trabalho_bd1/blob/master/junção%20e%20ordenação
 
 >## Marco de Entrega 02 em:<br>
 
