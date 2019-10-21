@@ -1,0 +1,17 @@
+CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS
+
+SELECT * FROM Usuario;
+
+SELECT * FROM Protector;
+
+SELECT * FROM Adopter;
+
+SELECT * FROM Agenda_Visita;
+
+SELECT * FROM Adota;
+
+SELECT * FROM Dados_Contato;
+
+SELECT * FROM Classifica;
+
+SELECT * FROM Documentacao;
