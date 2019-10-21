@@ -98,12 +98,8 @@ https://github.com/petsme/trabalho_bd1/blob/master/L%C3%B3gico_Trab_01.brM3
 https://github.com/petsme/trabalho_bd1/blob/master/BD_1_Trab_01_Fisico.txt
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
 
+https://github.com/petsme/trabalho_bd1/blob/master/Inserts_TRAB.txt
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
