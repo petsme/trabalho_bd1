@@ -102,7 +102,6 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_1_Trab_01_Fisico.txt
 https://github.com/petsme/trabalho_bd1/blob/master/Inserts_TRAB.txt
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 https://colab.research.google.com/drive/1ilz55rhj5VmxT50d-PR_GAuYaNiSl7Na
