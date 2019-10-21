@@ -130,19 +130,19 @@ https://github.com/petsme/trabalho_bd1/blob/master/Operadores%20l%C3%B3gicos%2C%
 https://github.com/petsme/trabalho_bd1/blob/master/atualiza%C3%A7%C3%A3o%20e%20exclus%C3%A3o%20de%20dados
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)
-        Junção que envolve todas as tabelas
-        
-        ![Alt text](https://github.com/petsme/trabalho_bd1/blob/master/images/Jun%C3%A7%C3%A3o%20e%20Ordena%C3%A7%C3%A3o%201.png)
-        
-        Junção que o grupo considerou como sendo de suma importância para o trabalho
-        
-        ![Alt text](https://github.com/petsme/trabalho_bd1/blob/master/images/Jun%C3%A7%C3%A3o%20e%20Ordena%C3%A7%C3%A3o%202.png)
-        
-        Demais junções
-        
-        https://github.com/petsme/trabalho_bd1/tree/master/images
-        
-        https://github.com/petsme/trabalho_bd1/blob/master/junção%20e%20ordenação
+Junção que envolve todas as tabelas
+
+![Alt text](https://github.com/petsme/trabalho_bd1/blob/master/images/Jun%C3%A7%C3%A3o%20e%20Ordena%C3%A7%C3%A3o%201.png)
+
+Junção que o grupo considerou como sendo de suma importância para o trabalho
+
+![Alt text](https://github.com/petsme/trabalho_bd1/blob/master/images/Jun%C3%A7%C3%A3o%20e%20Ordena%C3%A7%C3%A3o%202.png)
+
+Demais junções
+
+https://github.com/petsme/trabalho_bd1/tree/master/images
+
+https://github.com/petsme/trabalho_bd1/blob/master/junção%20e%20ordenação
 
 >## Marco de Entrega 02 em:<br>
 
