@@ -1,0 +1,15 @@
+1) dados de todos os adotantes
+select * from usuario
+where usuario.id in(select * from adopter)
+
+2) dados de todos os protetores
+select * from usuario
+where usuario.id in(select * from protector)
+
+3) dados dos animais que tem visita agendada
+select * from animal
+where animal.id_animal in (select id_animal from agenda_visita )
+
+4)documentaçao dos animais adotado
+select * from documentacao
+where documentacao.id_animal in (select id_animal from adota )
