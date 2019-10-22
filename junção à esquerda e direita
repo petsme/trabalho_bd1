@@ -1,0 +1,40 @@
+Junção com esquerda e direira juntas
+
+1) Nome de quem adotou, data de adoção e nome do animal 
+adotado ordenado por data de adoção sem campos 'null'
+
+select usuario.nome_sobrenome as nome, adota.data_adocao as "data da adoção",animal.nome_animal as "nome do animal adotado"
+from adota right outer join usuario on
+(adota.id_adopter=usuario.id)
+left outer join animal on
+(animal.id_protector=adota.id_protector)
+where adota.data_adocao is not NULL
+order by adota.data_adocao
+
+2) Data do Agendamento, Nome do Adotante,Telefone e Email sem campos 'NULL'
+
+select agenda_visita.data_agendamento as "data agendada",usuario.nome_sobrenome as adotante,dados_contato.num_telefone as telefone,dados_contato.email
+from agenda_visita right outer join dados_contato on
+(agenda_visita.id_adopter=dados_contato.id_usuario)
+left outer join usuario on
+(usuario.id=dados_contato.id_usuario)
+where agenda_visita is not NULL
+order by agenda_visita.data_agendamento
+
+3) Nome do animal, descrição e nome do protetor
+
+select animal.nome_animal ,documentacao.descricao,usuario.nome_sobrenome as protetor
+from animal right outer join documentacao on
+(animal.id_animal=documentacao.id_animal)
+left outer join protector on
+(animal.id_protector= protector.id_protector)
+left outer join usuario on
+(usuario.id=protector.id_protector)
+
+4) data do agendamento da visita, nome do animal e vacinação
+
+select agenda_visita.data_agendamento,animal.nome_animal,documentacao.vacinacao 
+from agenda_visita left outer join animal on
+(animal.id_animal=agenda_visita.id_animal)
+right outer join documentacao on
+(documentacao.id_animal=agenda_visita.id_animal)
