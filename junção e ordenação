@@ -24,52 +24,43 @@ where usuario.sexo = 'M'
 group by usuario.rg,usuario.cpf,usuario.nome_sobrenome,dados_contato.num_telefone
 order by usuario.nome_sobrenome 
 
-2)Nome de quem adotou, data de agendamento da visita e nome do animal 
-adotado ordenado por data de agendamento da visita
 
-SELECT Animal.nome_animal AS "Nome do Animal", 
-Usuario.Nome_Sobrenome AS "Nome do Adotante",
-Agenda_Visita.Data_Agendamento AS "Data de Visita"
-FROM Adota INNER JOIN Usuario ON (Adota.ID_Adopter = Usuario.ID) 
-INNER JOIN Animal ON (Animal.ID_Animal = Adota.ID_Animal)
-INNER JOIN Agenda_Visita ON (Agenda_Visita.ID_Adopter = Adota.ID_Adopter) Order By Agenda_Visita.Data_Agendamento
 
-3)Nome do animal, qualidade,data de nascimento e vacinação(dos que foram informados)
+2) Nome do animal, qualidade,data de nascimento e vacinação(dos que foram informados)
 
-SELECT animal.nome_animal AS "Nome do Animal", 
-documentacao.descricao AS "Qualidades do Animal",
-documentacao.data_nascimento AS "Data de Nascimento do Animal",
-documentacao.vacinacao AS Vacinacao
-FROM animal INNER JOIN documentacao ON
-(animal.id_animal = documentacao.id_animal)
-ORDER BY documentacao.data_nascimento
+select animal.nome_animal as nome,documentacao.descricao as qualidade,documentacao.data_nascimento as "data de nascimento",documentacao.vacinacao 
+from animal inner join documentacao on
+(animal.id_animal=documentacao.id_animal)
+order by documentacao.data_nascimento
 
-4)Data do Agendamento, Nome do Adotante,Telefone e Email
 
-SELECT agenda_visita.data_agendamento AS "Data do Agendamento",
-usuario.nome_sobrenome as "Nome do Adotante",
-dados_contato.num_telefone AS "Telefone",
-dados_contato.email AS "Email"
-from agenda_visita INNER JOIN dados_contato ON
-(agenda_visita.id_adopter = dados_contato.id_usuario) INNER JOIN usuario ON
-(usuario.id = dados_contato.id_usuario)
-order by agenda_visita.data_agendamento
+3) Agenda com Nome, Telefone e E-mail dos Usuarios
 
-5)Agenda com Nome, Telefone e E-mail dos Usuarios
-
-SELECT usuario.nome_sobrenome AS "Nome",
-dados_contato.num_telefone AS "Telefone",
-dados_contato.email AS "Email"
-FROM usuario INNER JOIN dados_contato ON
+select usuario.nome_sobrenome as nome,dados_contato.num_telefone as telefone,dados_contato.email 
+from usuario inner join dados_contato on
 (usuario.id=dados_contato.id_usuario)
-ORDER BY usuario.nome_sobrenome
+order by usuario.nome_sobrenome
 
-6) Nome do usuario avaliador id do avaliado e nota 
 
-SELECT usuario.nome_sobrenome AS "Classificador",
-classifica.id_usuario_2 AS "ID do Classificado",
-classifica.nota AS "Nota Recebida"
-from classifica INNER JOIN usuario ON
+4) Nome do protector id do avaliado e nota 
+
+select usuario.nome_sobrenome as classificador,classifica.id_usuario_2 as classificado,classifica.nota as "nota recebida"
+from classifica inner join usuario on
 (usuario.id = classifica.id_usuario_1)
-WHERE classifica.nota < 5
-ORDER BY classifica.nota
+where classifica.nota < 5
+order by classifica.nota
+
+5) nome,cpf e telefone dos ussuarios do sexo feminino
+
+select usuario.nome_sobrenome as nome,usuario.cpf,dados_contato.num_telefone as telefone
+from usuario inner join dados_contato on
+(usuario.id = dados_contato.id_usuario)
+where sexo = 'F'
+order by usuario.nome_sobrenome
+
+6)nome do animal data de cadastro e nome do protetor ordenado pela antiguidade
+
+select animal.nome_animal,animal.data_cadastro as antiguidade,usuario.nome_sobrenome
+from animal inner join usuario on
+(animal.id_protector=usuario.id)
+order by animal.data_cadastro
