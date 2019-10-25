@@ -28,9 +28,10 @@ order by usuario.nome_sobrenome
 2)Nome de quem adotou, data de agendamento da visita e nome do animal 
 adotado ordenado por data de agendamento da visita
 
-SELECT Animal.nome_animal AS "Nome do Animal", 
-Usuario.Nome_Sobrenome AS "Nome do Adotante",
-Agenda_Visita.Data_Agendamento AS "Data de Visita"
+SELECT Usuario.Nome_Sobrenome AS "Nome do Adotante", 
+Animal.nome_animal AS "Nome do Animal", 
+Agenda_Visita.Data_Agendamento AS "Data de Visita",
+Adota.Data_Adocao AS "Data da Adocao"
 FROM Adota INNER JOIN Usuario ON (Adota.ID_Adopter = Usuario.ID) 
 INNER JOIN Animal ON (Animal.ID_Animal = Adota.ID_Animal)
 INNER JOIN Agenda_Visita ON (Agenda_Visita.ID_Adopter = Adota.ID_Adopter) Order By Agenda_Visita.Data_Agendamento
