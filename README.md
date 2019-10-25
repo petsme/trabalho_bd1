@@ -45,7 +45,7 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
 
 ### 5.MODELO CONCEITUAL<br>
         
-![Alt text](https://github.com/petsme/trabalho_bd1/blob/master/Conceitual_Trab_IMG.png)
+![Alt text](https://github.com/petsme/trabalho_bd1/blob/master/Conceitual_Trab.png)
     
     
 #### 5.1 Validação do Modelo Conceitual
