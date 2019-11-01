@@ -1,0 +1,16 @@
+SELECT id, nome_sobrenome FROM usuario GROUP BY id;
+
+SELECT nome_sobrenome, id, data_nascimento FROM usuario GROUP BY id;
+
+SELECT nome_animal, id_animal FROM animal GROUP BY id_animal;
+
+SELECT nome_animal, sexo_animal, age(data_cadastro), id_animal FROM animal GROUP BY id_animal;
+
+SELECT an.nome_animal, age(data_agendamento), us.nome_sobrenome FROM agenda_visita as av 
+INNER JOIN animal as an ON (av.id_animal = an.id_animal)
+INNER JOIN usuario as us on (us.id = av.id_adopter)
+GROUP BY an.nome_animal, av.id_animal, av.id_adopter, age(data_agendamento), us.nome_sobrenome;
+
+SELECT dc.id_animal, dc.descricao, an.nome_animal FROM documentacao AS dc 
+INNER JOIN animal AS an on (dc.id_animal = an.id_animal) 
+GROUP BY an.nome_animal, dc.id_animal, dc.descricao;
