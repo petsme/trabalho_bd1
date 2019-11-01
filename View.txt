@@ -1,0 +1,32 @@
+
+
+/*View que mostra o nome dos usuarios que são adotantes:*/
+CREATE VIEW Nome_Adopter AS
+	SELECT u.nome_sobrenome AS "Nome", a.ID_adopter AS "ID Adopter" FROM Usuario AS u INNER JOIN Adopter AS a ON (u.ID = a.id_adopter)
+
+/*View que mostra usários que sao protetores*/
+CREATE VIEW Nome_Protector AS
+	SELECT u.nome_sobrenome AS "Nome", p.ID_protector AS "ID Protector" FROM Usuario AS u INNER JOIN Protector AS p ON (u.ID = p.id_protector)
+
+/**/
+
+/*Animais adotados por ano:*/
+CREATE VIEW Animais_Ano AS
+SELECT EXTRACT(year FROM data_adocao) as "Ano", 
+ 	COUNT(EXTRACT(year FROM data_adocao)) as "Quantidade de Animais Adotados" FROM Adota AS a 
+	GROUP BY EXTRACT(year FROM a.data_adocao) ORDER BY EXTRACT(year FROM a.data_adocao)
+
+/*Animais adotados por mes:*/
+CREATE VIEW Animais_Mes AS
+SELECT EXTRACT(month FROM data_adocao) as "Mes", EXTRACT (year FROM data_adocao) as "Ano", 
+	COUNT(EXTRACT(month FROM data_adocao)) as "Quantidade de Animais Adotados" FROM Adota AS a 
+	GROUP BY EXTRACT (month FROM a.data_adocao), EXTRACT(year FROM a.data_adocao) 
+	ORDER BY EXTRACT(year FROM a.data_adocao), EXTRACT(month FROM a.data_adocao)
+
+/*Sexo de animais na hora da adoção:*/
+CREATE VIEW Sexo_Adocao AS
+SELECT animal.sexo_animal AS "Sexo", 
+	COUNT(animal.sexo_animal) AS "Numero de Animais Adotados" 
+	FROM animal INNER JOIN 
+	adota ON (adota.id_animal = animal.id_animal) 
+	GROUP BY animal.sexo_animal
