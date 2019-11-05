@@ -160,7 +160,7 @@ https://github.com/petsme/trabalho_bd1/blob/master/junção%20à%20esquerda%20e%
           Nosso sistema não possui Self Join        
        
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
-          https://github.com/petsme/trabalho_bd1/blob/master/View.txt
+https://github.com/petsme/trabalho_bd1/blob/master/View.txt
 
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 https://github.com/petsme/trabalho_bd1/blob/master/subconsultas
