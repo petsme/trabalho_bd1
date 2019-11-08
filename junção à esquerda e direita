@@ -38,3 +38,11 @@ from agenda_visita left outer join animal on
 (animal.id_animal=agenda_visita.id_animal)
 right outer join documentacao on
 (documentacao.id_animal=agenda_visita.id_animal)
+
+5)
+
+Select a.Nome_Animal AS "Nome",
+ a.Sexo_Animal AS "Sexo",
+ d.Data_Nascimento AS "Data de Nascimento",
+ d.Descricao AS "Descricao" FROM Animal AS a LEFT JOIN 
+Documentacao AS d ON (a.ID_Animal = d.ID_Animal)
