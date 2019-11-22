@@ -135,16 +135,10 @@ https://github.com/petsme/trabalho_bd1/blob/master/Inserts_TRAB.txt
 O documento para a apresentação pptx está disponível [neste link.](https://docs.google.com/presentation/d/1gE7Rbw3ziOeAONWsSj34p-UlVDGtnvcvKHJte97wUoM/edit?usp=sharing)
 
 ### 11 Backup completo do banco de dados postgres 
-    >Conseguimos fazer a conexão no pgAdimin com a base de dados, porém não conseguimos fazer o backup.
-    
-    
-    a) deve ser realizado no formato "backup" 
-        (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
-    b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
-    c) informar aqui o grupo de alunos/dupla que realizou o teste.
 
->## Marco de Entrega 04 em:<br>
-
+>Backup do banco disponível aqui.
+Teste realizado pelo grupo:
+ BoraJogar: Kaio Fábio, Renato Lopes, Maikysuel e Willian
 
 ### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
