@@ -47,8 +47,8 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
     
     
 #### 5.1 Validação do Modelo Conceitual
-    BoraJogar: Kaio Fábio, Renato Lopes Maikysuel
-    EsTour: Willian, Carolina e Alexandre
+    BoraJogar: Kaio Fábio, Renato Lopes, Maikysuel e Willian
+    EsTour: Carolina e Alexandre
 
 #### 5.2 Descrição dos dados 
 
@@ -128,9 +128,11 @@ https://github.com/petsme/trabalho_bd1/blob/master/Inserts_TRAB.txt
 
 ### Todas as consultas estão inseridas no [Colab.](https://colab.research.google.com/drive/1oigAL4WBKmR8cgSVKxWQ0klNnicxdJPb)
 
-### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
+### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL<br>
 
 >Todas as modificações feitas foram carregadas no Git. Sendo assim, consideramos essa a versão final do nosso trabalho. 
+
+O documento para a apresentação pptx está disponível [neste link.](https://docs.google.com/presentation/d/1gE7Rbw3ziOeAONWsSj34p-UlVDGtnvcvKHJte97wUoM/edit?usp=sharing)
 
 ### 11 Backup completo do banco de dados postgres 
     a) deve ser realizado no formato "backup" 
