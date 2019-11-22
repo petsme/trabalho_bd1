@@ -102,33 +102,34 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_1_Trab_01_Fisico.txt
 https://github.com/petsme/trabalho_bd1/blob/master/Inserts_TRAB.txt
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-#### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
 
-#### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
+#### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
 
-#### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
+#### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS<br>
 
-#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+#### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS<br>
 
-#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)
+#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS<br>
+
+#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO<br>
 
 Todas as junções que estão presentes no relatórios são de grande importancia para o trabalho.
 
-#### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
+#### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO<br>
 
-#### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+#### 9.8	CONSULTAS COM LEFT E RIGHT JOIN<br>
 
-#### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
+#### 9.9	CONSULTAS COM SELF JOIN E VIEW<br>
    a) Uma junção que envolva Self Join
    >Nosso sistema não possuí tabelas com possibilidade de consultas com Self Join.     
 
-#### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+#### 9.10	SUBCONSULTAS<br>
 
 #### 9.11 Relatórios e Gráficos 
 
-### Todas as consultas estão contidas no [Colab](https://colab.research.google.com/drive/1oigAL4WBKmR8cgSVKxWQ0klNnicxdJPb)
+### Todas as consultas estão inseridas no [Colab.](https://colab.research.google.com/drive/1oigAL4WBKmR8cgSVKxWQ0klNnicxdJPb)
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 #### a) Pontos Chave do MINI-MUNDO
