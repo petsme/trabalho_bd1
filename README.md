@@ -115,7 +115,7 @@ https://github.com/petsme/trabalho_bd1/blob/master/Inserts_TRAB.txt
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO<br>
 
-Todas as junções que estão presentes no relatórios são de grande importancia para o trabalho.
+>Todas as junções que estão presentes no relatórios são de grande importancia para o trabalho.
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO<br>
 
@@ -129,7 +129,7 @@ Todas as junções que estão presentes no relatórios são de grande importanci
 
 #### 9.11 Relatórios e Gráficos 
 
-### Todas as consultas estão inseridas no [Colab.](https://colab.research.google.com/drive/1oigAL4WBKmR8cgSVKxWQ0klNnicxdJPb)
+### >Todas as consultas estão inseridas no [Colab.](https://colab.research.google.com/drive/1oigAL4WBKmR8cgSVKxWQ0klNnicxdJPb)
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 #### a) Pontos Chave do MINI-MUNDO
