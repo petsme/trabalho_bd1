@@ -129,14 +129,8 @@ https://github.com/petsme/trabalho_bd1/blob/master/Inserts_TRAB.txt
 ### Todas as consultas estão inseridas no [Colab.](https://colab.research.google.com/drive/1oigAL4WBKmR8cgSVKxWQ0klNnicxdJPb)
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
-#### a) Pontos Chave do MINI-MUNDO
-#### b) 5 principais tabelas/fluxos do sistema
-#### c) Perguntas que podem ser respondidads com o sistema proposto
-#### d) Modelo Conceitual
-#### e) Modelo Lógico
-#### f) Relatórios e Gráficos mais importantes para o sistema (mínimo 5) 
-#### --> Tempo de apresentação 10 minutos
 
+>Todas as modificações feitas foram carregadas no Git. Sendo assim, consideramos essa a versão final do nosso trabalho. 
 
 ### 11 Backup completo do banco de dados postgres 
     a) deve ser realizado no formato "backup" 
