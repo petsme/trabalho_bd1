@@ -39,7 +39,7 @@ https://github.com/petsme/trabalho_bd1/blob/master/Trab_01_BD_PrototipoTela.pdf
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
 
-https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
+Disponíveis [aqui.](https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx)
 
 ### 5.MODELO CONCEITUAL<br>
         
@@ -88,15 +88,15 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
 
 ### 6	MODELO LÓGICO<br>
 
-https://github.com/petsme/trabalho_bd1/blob/master/L%C3%B3gico_Trab_01.brM3
+Modelo lógico [neste link.](https://github.com/petsme/trabalho_bd1/blob/master/L%C3%B3gico_Trab_01.brM3)
 
 ### 7	MODELO FÍSICO<br>
      
-https://github.com/petsme/trabalho_bd1/blob/master/BD_1_Trab_01_Fisico.txt
+Modelo físico [neste link.](https://github.com/petsme/trabalho_bd1/blob/master/BD_1_Trab_01_Fisico.txt)
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
-https://github.com/petsme/trabalho_bd1/blob/master/Inserts_TRAB.txt
+Inserts disponíveis [aqui.](https://github.com/petsme/trabalho_bd1/blob/master/Inserts_TRAB.txt)
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 
@@ -136,7 +136,7 @@ O documento para a apresentação pptx está disponível [neste link.](https://d
 
 ### 11 Backup completo do banco de dados postgres 
 
->Backup do banco disponível [aqui.]()
+>Backup do banco disponível [aqui.](https://github.com/petsme/trabalho_bd1/blob/master/pets_me_backup.sql)
 
 Teste realizado pelo grupo:
  BoraJogar: Kaio Fábio, Renato Lopes, Maikysuel e Willian
