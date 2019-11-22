@@ -40,7 +40,7 @@ Protótipos de telas do [sistema.](https://github.com/petsme/trabalho_bd1/blob/m
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
 
-Disponíveis [aqui.](https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx)
+Tabelas neste [link.](https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx)
 
 ### 5.MODELO CONCEITUAL<br>
         
