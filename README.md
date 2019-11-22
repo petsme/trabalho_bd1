@@ -135,6 +135,9 @@ https://github.com/petsme/trabalho_bd1/blob/master/Inserts_TRAB.txt
 O documento para a apresentação pptx está disponível [neste link.](https://docs.google.com/presentation/d/1gE7Rbw3ziOeAONWsSj34p-UlVDGtnvcvKHJte97wUoM/edit?usp=sharing)
 
 ### 11 Backup completo do banco de dados postgres 
+    >Conseguimos fazer a conexão no pgAdimin com a base de dados, porém não conseguimos fazer o backup.
+    
+    
     a) deve ser realizado no formato "backup" 
         (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
     b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
