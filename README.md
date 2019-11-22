@@ -104,59 +104,31 @@ https://github.com/petsme/trabalho_bd1/blob/master/Inserts_TRAB.txt
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-https://colab.research.google.com/drive/1ilz55rhj5VmxT50d-PR_GAuYaNiSl7Na
-
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
-
-https://colab.research.google.com/drive/1ilz55rhj5VmxT50d-PR_GAuYaNiSl7Na
-
-https://github.com/petsme/trabalho_bd1/blob/master/Operadores%20l%C3%B3gicos%2C%20where%2C%20like%2C%20ilike%2C%20data%20(9.2%2C%209.3%20e%209.4).txt
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
 
-https://colab.research.google.com/drive/1ilz55rhj5VmxT50d-PR_GAuYaNiSl7Na
-
-https://github.com/petsme/trabalho_bd1/blob/master/Operadores%20l%C3%B3gicos%2C%20where%2C%20like%2C%20ilike%2C%20data%20(9.2%2C%209.3%20e%209.4).txt
-
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
-https://colab.research.google.com/drive/1ilz55rhj5VmxT50d-PR_GAuYaNiSl7Na
-
-https://github.com/petsme/trabalho_bd1/blob/master/Operadores%20l%C3%B3gicos%2C%20where%2C%20like%2C%20ilike%2C%20data%20(9.2%2C%209.3%20e%209.4).txt
-
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-
-https://github.com/petsme/trabalho_bd1/blob/master/atualiza%C3%A7%C3%A3o%20e%20exclus%C3%A3o%20de%20dados
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)
 
 Todas as junções que estão presentes no relatórios são de grande importancia para o trabalho.
 
-Link para o colab: https://colab.research.google.com/drive/1oigAL4WBKmR8cgSVKxWQ0klNnicxdJPb
-
->## Marco de Entrega 02 em:<br>
-
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
-https://colab.research.google.com/drive/1ilz55rhj5VmxT50d-PR_GAuYaNiSl7Na
-
-https://github.com/petsme/trabalho_bd1/blob/master/group_by.txt
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
-https://colab.research.google.com/drive/1ilz55rhj5VmxT50d-PR_GAuYaNiSl7Na
-
-https://github.com/petsme/trabalho_bd1/blob/master/junção%20à%20esquerda%20e%20direita
 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
    a) Uma junção que envolva Self Join
-   Nosso sistema não possuí tabelas com possibilidade de consultas com Self Join.     
+   >Nosso sistema não possuí tabelas com possibilidade de consultas com Self Join.     
+
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
-https://github.com/petsme/trabalho_bd1/blob/master/subconsultas
 
 #### 9.11 Relatórios e Gráficos 
-    a)análises e resultados provenientes do banco de dados
-https://colab.research.google.com/drive/1ilz55rhj5VmxT50d-PR_GAuYaNiSl7Na
 
->## Marco de Entrega 03 em:<br>
+### Todas as consultas estão contidas no [Colab](https://colab.research.google.com/drive/1oigAL4WBKmR8cgSVKxWQ0klNnicxdJPb)
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 #### a) Pontos Chave do MINI-MUNDO
