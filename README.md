@@ -11,7 +11,7 @@ Edimar Cruz:eac2001@hotmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
-> Segundo a Organização Mundial da Saúde, só no Brasil, estima-se que existam mais de 30 milhões de animais abandonados. Em cidades grandes, a cada cinco habitantes, há um cachorro. Destes, 10% estão abandonados.
+Segundo a Organização Mundial da Saúde, só no Brasil, estima-se que existam mais de 30 milhões de animais abandonados. Em cidades grandes, a cada cinco habitantes, há um cachorro. Destes, 10% estão abandonados.
 Além desse número exorbitante para animais domesticados, as estatísticas para animais que não são comumente conhecidos como “pets” é também assustadora, pois muitos animais são resgatados de situações periculosas e não conseguem receber o amor que recebem depois do resgate. 
 Buscando então facilitar esse acesso, promovendo contato mais prático e útil entre o protetor animal e o adotante, respeitando burocracias necessárias e principalmente o direito à vida saudável e digna no animal, nós trazemos a proposta do Pets&Me.
 
@@ -19,7 +19,7 @@ Buscando então facilitar esse acesso, promovendo contato mais prático e útil 
 
 ### 3.MINI-MUNDO<br>
 
-O aplicativo Pets&me a ser desenvolvido, tem como objetivo a flexibilidade na adoção de animais carentes, diminuindo a distância entre o protetor (Protector) e o adotante (Adopter). No App, não será permitido a comercialização de animais, bem como a divulgação de dados sobre a raça do mesmo. O usuário interessado em adotar um animal (Adopter), bem como o interessado na divulgação de animais a serem adotados (Protector), deverão se cadastrar no App inserindo seus dados pessoais e também algumas informações adicionais. O sistema deverá armazenar dados como: nome, CPF, RG. O sistema também deve possuir um meio de classificação e notas dos protectors e adopter. Usuários protectors poderão realizar o cadastro de animais a serem adotados. O sistema deve armazenar dados cadastrais obrigatórios dos animais, tais como: nome e sexo. Também deve ser capaz de armazenar alguns dados opcionais, como: descrição, data de nascimento (idade) e registro de vacinação (esse tópico é opcional, visto que se tratando de animais abandonados ou de rua, nem sempre se tem acesso a esse tipo de histórico). O sistema deve ser capaz de fazer o agendamento de visitas para que o protector encontre o adopter e conheça animal escolhido antes da efetivação do processo de adoção. O sistema só deve permitir o acesso a aba de adoção aos usuários adopter que cumpram os requisitos mínimos pré-estabelecidos para a adoção de um pet¹. Ao efetivar uma adoção, o sistema deve gerar um termo de compromisso contendo todas as informações do animal e das partes envolvidas na adoção (Adopter e Protector) para ser impresso e posteriormente assinado.
+O aplicativo Pets&me a ser desenvolvido, tem como objetivo a flexibilidade na adoção de animais carentes, diminuindo a distância entre o protetor (Protector) e o adotante (Adopter). No App, não será permitido a comercialização de animais, bem como a divulgação de dados sobre a raça do mesmo. O usuário interessado em adotar um animal (Adopter), bem como o interessado na divulgação de animais a serem adotados (Protector), deverão se cadastrar no App inserindo seus dados pessoais e também algumas informações adicionais. O sistema deverá armazenar dados como: nome, CPF, RG. O sistema também deve possuir um meio de classificação e notas dos protectors e adopter. Usuários protectors poderão realizar o cadastro de animais a serem adotados. O sistema deve armazenar dados cadastrais obrigatórios dos animais, tais como: nome e sexo. Também deve ser capaz de armazenar alguns dados opcionais, como: descrição, data de nascimento (idade) e registro de vacinação (esse tópico é opcional, visto que se tratando de animais abandonados ou de rua, nem sempre se tem acesso a esse tipo de histórico). O sistema deve ser capaz de fazer o agendamento de visitas para que o protector encontre o adopter e conheça animal escolhido antes da efetivação do processo de adoção. O sistema só deve permitir o acesso a aba de adoção aos usuários adopter que cumpram os requisitos mínimos pré-estabelecidos para a adoção de um pet¹.
 
 ¹ O adotante precisa ser maior de 18 anos, apresentar RG, CPF, comprovante de residência recente assinar um termo se comprometendo a cuidar do animalzinho, que agora passa a ser de responsabilidade dele.
 
@@ -28,15 +28,13 @@ O aplicativo Pets&me a ser desenvolvido, tem como objetivo a flexibilidade na ad
 https://github.com/petsme/trabalho_bd1/blob/master/Trab_01_BD_PrototipoTela.pdf
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
 > O app Pets&Me precisa inicialmente dos seguintes relatórios:
 * Relatório que informe quais foram os números de animais adotados em um determinado período de tempo.
 * Relatório de qual o sexo dos animais quer os Adopters preferem na hora da adoção.
 * Relatório que informa quantas visitas efetivamente terminaram em um animal adotado.
 * Relatório que informe qual o perfil de animal mais procurado e o mais cadastrado.
-* Relatório de perfil de usuário mais bem sucedido na hora de conseguir uma adoção de um animal.
+* Relatório que informe qual faixa etária de usuários adota mais animais.
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
@@ -72,7 +70,7 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
     ID: campo para o armazenamento do identificador unico de cada usuário.
     CPF: campo que armazena o cadastro de pessoa física dos usuários.
     Senha: campo para o armazenamento das senhas dos usuários.
-    Nome_Usuario: responsável por armazenar o nome(de login) de usuários.
+    Nome_Usuario: responsável por armazenar o nome de login do usuários.
     Num_Telefone: campo responsável pelo armazenamento do número de telefone dos usuários.
     Endereco: campo responsável pelo armazenamento do endereço dos usuários.
     Email: campo responsável pelo armazenamento do e-mail dos usuários.
