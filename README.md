@@ -84,10 +84,9 @@ https://github.com/petsme/trabalho_bd1/blob/master/BD_01_Table.xlsx
     Vacinacao: campo que armazena o estado de vacinação dos animais.
 
 #### 5.3 Principais fluxos de informação e principais tabelas do sistema     
-    a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
     As tabelas que conterão mais dados no sistema são:
-     As tabelas Protector, Adopter e Animal. As tabelas Protector e Adopter herdam os atributos da tabela Usuário, consequentemente se tornando as maiores tabelas do sistema.
-    As cinco principais tabelas do sistema sao: Usuário, Adopter, Protector, Animal e Adota.
+    As tabelas Protector, Adopter e Animal. As tabelas Protector e Adopter herdam os atributos da tabela Usuário, consequentemente se tornando as maiores tabelas do sistema.
+    Todas as tabelas são importantes para pleno funcionamento de nosso sistema.
 
 ### 6	MODELO LÓGICO<br>
 
@@ -129,7 +128,7 @@ https://github.com/petsme/trabalho_bd1/blob/master/Inserts_TRAB.txt
 
 #### 9.11 Relatórios e Gráficos 
 
-### >Todas as consultas estão inseridas no [Colab.](https://colab.research.google.com/drive/1oigAL4WBKmR8cgSVKxWQ0klNnicxdJPb)
+### Todas as consultas estão inseridas no [Colab.](https://colab.research.google.com/drive/1oigAL4WBKmR8cgSVKxWQ0klNnicxdJPb)
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 #### a) Pontos Chave do MINI-MUNDO
